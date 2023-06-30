@@ -9,7 +9,7 @@ spec:
     properties:
       repoType: git
       # 将此处替换成你需要监听的 git 配置仓库地址
-      url: https://github.com/FogDong/KubeVela-GitOps-Infra-Demo
+      url: https://github.com/isgxr/KubeVela-GitOps-Infra-Demo
       # 需要在此处声明你的 git secret，因为 GitOps 会用最新的镜像更新你仓库中的文件，需要写权限
       secretRef: git-secret
       pullInterval: 1m
