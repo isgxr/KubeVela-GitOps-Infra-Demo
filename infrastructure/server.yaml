@@ -8,4 +8,4 @@ spec:
     - name: server
       type: webservice
       properties:
-        image: nginx
+        image: demo.goharbor.io/gxr/nginx:1
