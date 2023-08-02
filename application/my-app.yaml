@@ -1,11 +1,11 @@
 apiVersion: core.oam.dev/v1beta1
 kind: Application
 metadata:
-  name: my-app
-  namespace: default
+  name: demo-gitops-app
+  namespace: demo
 spec:
   components:
-    - name: my-app
+    - name: demo-gitops-app-nginx
       type: webservice
       properties:
-        image: ghcr.io/fogdong/test-fog:master-c38379ba-1634977126 # {"$imagepolicy": "default:image-gitops"}
+        image: ghcr.io/isgxr/nginx:1 # {"$imagepolicy": "default:image-gitops"}
