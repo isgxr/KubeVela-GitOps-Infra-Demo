@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: server-config
-  namespace: default
+  name: gitops-listen-git-demo-config
+  namespace: demo
 data:
-  config: my-config
+  key1: value1

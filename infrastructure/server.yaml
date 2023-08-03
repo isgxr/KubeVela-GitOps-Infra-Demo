@@ -1,11 +1,11 @@
 apiVersion: core.oam.dev/v1beta1
 kind: Application
 metadata:
-  name: server
-  namespace: default
+  name: gitops-listen-git-demo
+  namespace: demo
 spec:
   components:
-    - name: server
+    - name: gitops-listen-git-demo
       type: webservice
       properties:
-        image: demo.goharbor.io/gxr/nginx:1
+        image: ghcr.io/isgxr/gitops-listen-git:1
