@@ -8,4 +8,5 @@ spec:
     - name: gitops-listen-git-demo
       type: webservice
       properties:
-        image: ghcr.io/isgxr/gitops-listen-git:1
+        # image: ghcr.io/isgxr/gitops-listen-git:1
+        image: harbor.cloud2go.cn/test/nginx:1
