@@ -2,7 +2,7 @@ apiVersion: core.oam.dev/v1beta1
 kind: Application
 metadata:
   name: gitops-listen-git-demo
-  namespace: demo0801
+  namespace: demo08011
 spec:
   components:
     - name: gitops-listen-git-demo
