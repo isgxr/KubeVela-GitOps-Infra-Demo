@@ -1,11 +1,11 @@
 apiVersion: core.oam.dev/v1beta1
 kind: Application
 metadata:
-  name: gitops-listen-git-demo
+  name: gitops-listen-git-demo08011
   namespace: demo08011
 spec:
   components:
-    - name: gitops-listen-git-demo
+    - name: gitops-listen-git-demo08011
       type: webservice
       properties:
         # image: ghcr.io/isgxr/gitops-listen-git:1
