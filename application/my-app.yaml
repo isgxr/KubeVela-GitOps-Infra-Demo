@@ -1,11 +1,11 @@
 apiVersion: core.oam.dev/v1beta1
 kind: Application
 metadata:
-  name: demo-gitops-app
-  namespace: demo
+  name: demo-kustomize-listen-to-image
+  namespace: demo08011
 spec:
   components:
-    - name: demo-gitops-app-nginx
+    - name: demo-kustomize-listen-to-image
       type: webservice
       properties:
-        image: ghcr.io/isgxr/nginx:1 # {"$imagepolicy": "default:image-gitops"}
+        image: ghcr.io/isgxr/alpine:3.15 # {"$imagepolicy": "default:image-gitops"}
