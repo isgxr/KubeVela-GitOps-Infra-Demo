@@ -2,7 +2,7 @@ apiVersion: core.oam.dev/v1beta1
 kind: Application
 metadata:
   name: demo-kustomize-listen-to-image
-  namespace: demo08011
+  namespace: demo
 spec:
   components:
     - name: demo-kustomize-listen-to-image
