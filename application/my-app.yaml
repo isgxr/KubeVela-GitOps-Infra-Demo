@@ -8,4 +8,4 @@ spec:
     - name: demo-kustomize-listen-to-image
       type: webservice
       properties:
-        image: ghcr.io/isgxr/alpine:3.15 # {"$imagepolicy": "default:image-gitops"}
+        image: ghcr.io/isgxr/alpine:3.15 # {"$imagepolicy": "demo08011:demo-kustomize-listen-to-image"}
