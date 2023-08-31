@@ -1,3 +1,5 @@
 resources:
 - ../base
 namePrefix: dev-
+patchesStrategicMerge:
+- patch-service-port.yaml
