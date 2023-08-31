@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-nginx-svc
+  namespace: default
+spec:
+  ports:
+  - port: 808
+    protocol: TCP
+  selector:
+    run: my-nginx
