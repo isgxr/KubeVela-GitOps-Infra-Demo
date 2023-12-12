@@ -8,6 +8,9 @@ metadata:
   namespace: default
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      app.oam.dev/name: kustomize-workload
   template:
     metadata:
       labels:
