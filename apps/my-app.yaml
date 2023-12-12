@@ -2,6 +2,7 @@ apiVersion: core.oam.dev/v1beta1
 kind: Application
 metadata:
   name: my-app
+  namespace: default
 spec:
   components:
     - name: my-server
