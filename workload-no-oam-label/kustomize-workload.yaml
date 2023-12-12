@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    name: kustomize-workload
+  name: kustomize-workload
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: kustomize-workload
+  template:
+    metadata:
+      labels:
+        name: kustomize-workload
+    spec:
+      containers:
+        - image: harbor.cloud2go.cn/test/nginx:1
+          imagePullPolicy: IfNotPresent
+          name: kustomize-workload
